@@ -1,0 +1,52 @@
+/*
+Website by Abhilash Rejanair
+*/
+
+#header {
+	margin-top:2em;
+	padding:2em;
+	background-color: #eee;
+	border-radius: 1em;
+	text-align: center;
+}
+
+#header p{
+	font-size: 18px;
+	margin-bottom: 5em;
+}
+
+#header h1 {
+	margin:1.5em 0;
+}
+
+#content {
+	margin-top: 5em;
+}
+
+#fleet img {
+	height:100px;
+}
+
+#footer {
+	margin-top: 2em;
+	border-top: 1px solid #eee;
+	padding-top: 2em;
+	color:#777;
+}
+
+#content .medium-10.columns p{
+	text-align: center;
+	vertical-align: middle;
+}
+
+#content.fleet > .row {
+	padding:2em;
+	border:1px solid #ccc;
+	border-bottom-color: #fff;
+	transition:background-color 1s;
+}
+
+#content.fleet > .row:hover {
+	background-color: #0078A0;
+	color:#fff;
+}
