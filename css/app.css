@@ -1,5 +1,13 @@
 /*
 Website by Abhilash Rejanair
+
+    ___    __    __    _ __           __       ____         _                   _     
+   /   |  / /_  / /_  (_) /___ ______/ /_     / __ \___    (_)___ _____  ____ _(_)____
+  / /| | / __ \/ __ \/ / / __ `/ ___/ __ \   / /_/ / _ \  / / __ `/ __ \/ __ `/ / ___/
+ / ___ |/ /_/ / / / / / / /_/ (__  ) / / /  / _, _/  __/ / / /_/ / / / / /_/ / / /    
+/_/  |_/_.___/_/ /_/_/_/\__,_/____/_/ /_/  /_/ |_|\___/_/ /\__,_/_/ /_/\__,_/_/_/     
+                                                     /___/                            
+
 */
 
 #header {
@@ -51,4 +59,11 @@ Website by Abhilash Rejanair
 #content.fleet > .row:hover {
 	background-color: #0078A0;
 	color:#fff;
+}
+
+.top-bar-section .left {
+	color:#ffffff;
+	margin-top: 0.5em;
+	font-weight: bold;
+	width: 200px;
 }
