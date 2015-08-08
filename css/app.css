@@ -11,24 +11,49 @@ Website by Abhilash Rejanair
 */
 
 #header {
-	margin-top:2em;
 	padding:2em;
-	background-color: #eee;
-	border-radius: 1em;
 	text-align: center;
+	z-index: 9;
+	position: absolute;
+	left:0;
+	right:0;
+}
+#headerbackground {
+	margin-top:-1em;
+	/*filter: blur(1px);
+  	-webkit-filter: blur(1px);
+	*/padding:2em;
+	height:500px;
+	z-index: 1;
+	display: block;
+	left:0;
+	position: absolute;
+	right:0;
+	background: url("../img/back4.jpg");
+	background-position: center center;
+	background-size:cover;
+	transition:all 7s;
+	opacity: 0;
 }
 
 #header p{
 	font-size: 18px;
 	margin-bottom: 5em;
+	color: #FFF;
+	background-color: #13B1D5;
+	width: 43em;
+	margin: 0 auto 5em;
 }
 
 #header h1 {
-	margin:1.5em 0;
+	margin: 1.5em auto;
+	color: #FFF;
+	background-color: #13B1D5;
+	width: 12em;
 }
 
 #content {
-	margin-top: 5em;
+	margin-top: 2em;
 	padding-left: 1em;
 	padding-right: 1em;
 }
@@ -60,9 +85,12 @@ Website by Abhilash Rejanair
 	background-color: #ccc;
 }
 
-.top-bar-section .left {
+#callus li {
 	color:#ffffff;
-	margin-top: 0.5em;
+	margin: 0.5em auto;
 	font-weight: bold;
-	width: 200px;
+	width: 250px;
+	position: absolute;
+	top:50%;
+	right:43.5%;
 }

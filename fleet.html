@@ -40,7 +40,7 @@ Website by Abhilash Rejanair
 
           <!-- Left Nav Section -->
           <ul class="left">
-            <li>Call: +91 99 86 276244</li>
+            <li>Call 24/7: +91 99 86 276244</li>
           </ul> 
           
         </section>
@@ -50,7 +50,7 @@ Website by Abhilash Rejanair
       <h1>Fleet</h1>
       <h6>We have a lot of high quality vehicles ready to offer you a comfortable journey.</h6>
       <hr><br>
-      <h3>Cars</h3>
+      <h3 id="car">Cars</h3>
       <div class="row">
         <div class="medium-2 columns"><img src="img/indica.png" alt="Indica"></div>
         <div class="medium-10 columns">
@@ -111,7 +111,7 @@ Website by Abhilash Rejanair
           <p>Ford Fiesta</p>
         </div>
       </div>
-      <h3>Coaches/Buses</h3>
+      <h3 id="bus">Coaches/Buses</h3>
       <div class="row">
         <div class="medium-2 columns"><img src="img/tempo.JPG" alt="Tempo Traveler"></div>
         <div class="medium-10 columns">
@@ -142,7 +142,7 @@ Website by Abhilash Rejanair
           <p>Scania Bus</p>
         </div>
       </div>
-      <h3>Premium Cars</h3>
+      <h3 id="premium">Premium Cars</h3>
 
      <div class="row">
         <div class="medium-2 columns"><img src="img/mercc.jpg" alt="Mercedes Benz C Class"></div>
@@ -220,6 +220,21 @@ Website by Abhilash Rejanair
   ga('create', 'UA-65899347-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+<script type="text/javascript">
+(function(){
+  var hash=""+window.location.hash;
+  console.log("HASH = "+hash);
+  if(hash.indexOf("car") > -1||hash.indexOf("Car") > -1) {
+    window.location.hash="car";
+  }
+  if(hash.indexOf("Bus") > -1||hash.indexOf("bus") > -1) {
+    window.location.hash="bus";
+  }
+  if(hash.indexOf("Premium") > -1||hash.indexOf("premium") > -1) {
+    window.location.hash="premium";
+  }
+}).call(this);
 </script>
 </body>
 </html>

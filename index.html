@@ -39,18 +39,19 @@ Website by Abhilash Rejanair
           </ul>
 
           <!-- Left Nav Section -->
-          <ul class="left">
-            <li>Call: +91 99 86 276244</li>
+          <ul id="callus">
+            <li>Call 24/7: +91 99 86 276244</li>
           </ul> 
           
         </section>
     </nav>
     </div>
-    <div class="row" id="header">
+    <div id="headerbackground"></div>
+    <div id="header">
       <h1>Welcome to RentCabs.in</h1>
-      <p>A quick and simple cab renting company. Give us a missed call and we will get you where you want to go. <br>Call: <span itemprop="telephone">+91 99 86 276244</span></p>
+      <p>A quick and simple cab renting company. Call us 24/7 and we will get you where you want to go. <br>Call: <span itemprop="telephone">+91 99 86 276244</span></p>
     </div>
-    <div class="row" id="content">
+    <div class="row" id="content" style=" margin-top: 35em;">
       <p>Rentcabs.in is a company which provides cabs and buses for hire. We provide quality vehicles, with trusted drivers and offer amazing prices. Just give us a call to learn more.</p>
       <p>We provide services for you to rent cabs for various purposes like marriage ceremonies, corporate transport, employee transport, pilgrimage tours, tours and travels, sightseeing tours, honeymoon trips, and many many more.</p>
       <br>
@@ -111,6 +112,22 @@ Website by Abhilash Rejanair
   ga('create', 'UA-65899347-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+<script type="text/javascript">
+(function(){
+  var rand = Math.round(Math.random()*10);
+  while(!(rand>=0&&rand<=4))  {rand = Math.round(Math.random()*10);}
+  var backs = ["img/back1.JPG","img/back2.jpg","img/back3.jpg","img/back4.jpg","img/back5.jpg"];
+  var newer = backs[rand];
+  console.log("Winner = "+newer);
+  $("#headerbackground").css("opacity","1");
+  $("#headerbackground").css("background-position","bottom bottom");
+  $("#headerbackground").css("background","url(\""+newer+"\")");
+  if(!(rand==2||rand==1)) {
+    $("#header h1").css("background-color","transparent");
+    $("#header p").css("background-color","transparent");
+  }
+}).call(this);
 </script>
 </body>
 </html>
