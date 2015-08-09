@@ -94,3 +94,42 @@ Website by Abhilash Rejanair
 	top:50%;
 	right:43.5%;
 }
+
+#contact {
+	position: fixed;
+	width:400px;
+	height:350px;
+	bottom:0;
+	right:0;
+	background-color: #eee;
+	color:#333;
+	z-index: 9999;
+	border:1px solid #ccc;
+}
+#contact a {
+	display: block;
+}
+::-webkit-input-placeholder {
+   color: #333;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #333;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #333;  
+}
+
+:-ms-input-placeholder {  
+   color: #333;  
+}
+#contactform input {
+	color:#333;
+}
+
+@media screen and (max-width: 768px) {
+	#contact {
+		visibility: hidden;
+	}
+} 
