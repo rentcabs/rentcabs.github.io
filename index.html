@@ -102,9 +102,9 @@ Website by Abhilash Rejanair
               <span itemprop="name">RentCabs.in</span><br>
               <span itemprop="description"><em>Cabs and Buses for Hire at the best rates</em></span><br>
               <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                <span itemprop="streetAddress">3102 Highway 98</span><br>
-                <span itemprop="addressLocality">Bangalore</span>,<br>
-                <span itemprop="addressRegion">India</span>
+                <span itemprop="streetAddress"># 19, 5th main, 5th 'b' cross, Near chaitra printers,</span><br>
+                <span itemprop="addressLocality">Chowdeshwari nagar, Laggere</span>,<br>
+                <span itemprop="addressRegion">Bangalore 560058</span>
               </div>
             </div></p>
         </div>
@@ -117,7 +117,7 @@ Website by Abhilash Rejanair
     </div>
     <div id="contact">
     <a href="#" class="button" onclick="hidecontact(1)">Hide</a>
-    <iframe src="https://docs.google.com/forms/d/1Ol46sqE0PxuDNuUEUHC9uc0tM4ooq72ghmdG1Oh8C4c/viewform?usp=send_form" width="400" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>  
+    <iframe src="https://docs.google.com/forms/d/1Ol46sqE0PxuDNuUEUHC9uc0tM4ooq72ghmdG1Oh8C4c/viewform?usp=send_form" width="400" height="400" frameborder="0" marginheight="0" marginwidth="0" style="margin-top:-5em;">Loading...</iframe>  
     <!--<form id="contactform" name="contactform" action="http://formspree.io/1995ad@gmail.com" onsubmit="return validateForm()" method="POST">
       <input type="text" name="name" placeholder="Enter your name">
       <input type="text" name="phone" placeholder="Enter your number">
@@ -152,14 +152,13 @@ function hidecontact(flag) {
   while(!(rand>=0&&rand<=4))  {rand = Math.round(Math.random()*10);}
   var backs = ["img/back1.JPG","img/back2.jpg","img/back3.jpg","img/back4.jpg","img/back5.jpg"];
   var newer = backs[rand];
-  console.log("Winner = "+newer);
-  $("#headerbackground").css("opacity","1");
-  $("#headerbackground").css("background-position","bottom bottom");
+  //$("#headerbackground").css("opacity","1");
+  //$("#headerbackground").css("background-position","bottom bottom");
   $("#headerbackground").css("background","url(\""+newer+"\")");
-  if(!(rand==2||rand==1)) {
+  /*if(!(rand==2||rand==1)) {
     $("#header h1").css("background-color","transparent");
     $("#header p").css("background-color","transparent");
-  }
+  }*/
 }).call(this);
 </script>
 </body>

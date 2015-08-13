@@ -31,9 +31,12 @@ Website by Abhilash Rejanair
 	right:0;
 	background: url("../img/back4.jpg");
 	background-position: center center;
-	background-size:cover;
-	transition:all 7s;
-	opacity: 0;
+	/*background-size:cover;
+	*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*transition:all 7s;
+	*/opacity: 1;
 }
 
 #header p{
@@ -98,7 +101,7 @@ Website by Abhilash Rejanair
 #contact {
 	position: fixed;
 	width:400px;
-	height:350px;
+	height:400px;
 	bottom:0;
 	right:0;
 	background-color: #eee;
